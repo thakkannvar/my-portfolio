@@ -111,7 +111,7 @@ function Contact() {
 
 function Footer() {
   return <footer className="site-footer"><a className="footer-name" href="#home">Kiran B. Thakkannavar<span>.</span></a><p>Python Developer - Django Developer - Backend Developer</p><nav aria-label="Footer navigation">{navItems.map(([label, id]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>
-    <div className="footer-bottom"><span>© {currentYear} Kiran B. Thakkannavar</span><div><a href="https://linkedin.com/in/kiran-thakkannavar-703544334" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInMark /></a><a href="mailto:kiranthakkannavar169@gmail.com" aria-label="Email"><Mail size={16} /></a></div><a className="back-to-top" href="#home">Back to top <ArrowUp size={14} /></a></div>
+    <div className="footer-bottom"><span>© {currentYear} Kiran Thakkannavar</span><div><a href="https://linkedin.com/in/kiran-thakkannavar-703544334" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInMark /></a><a href="mailto:kiranthakkannavar169@gmail.com" aria-label="Email"><Mail size={16} /></a></div><a className="back-to-top" href="#home">Back to top <ArrowUp size={14} /></a></div>
   </footer>
 }
 
